@@ -13,6 +13,7 @@
     <title>Shelter - Main</title>
 </head>
 <body>
+<!--HEADER-->
 <header>
     <div class="logo">
         <p class="title">Cozy House</p>
@@ -20,24 +21,66 @@
     </div>
     <nav class="menu">
         <ul class="list">
-            <li><a href="" class="link--active">About the shelter</a></li>
-            <li><a href="" class="link">Our pets</a></li>
+            <li><a href="#about" class="link--active">About the shelter</a></li>
+            <li><a href="#pets" class="link">Our pets</a></li>
             <li><a href="" class="link">Help the shelter</a></li>
             <li><a href="" class="link">Contacts</a></li>
         </ul>
     </nav>
 </header>
 <main>
+    <!--FIRST BLOCK-->
     <section id="home">
         <div class="wrapper">
             <div class="home__content">
                 <h1 class="heading">Not only people need a house</h1>
                 <h2 class="subheading">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</h2>
-                <a href="" class="button--primary">Make a friend</a>
+                <a class="button--primary" href="" >Make a friend</a>
             </div>
             <div class="home__puppy">
                 <img src="assets/start-screen-puppy.png" width="698" height="728" alt="">
             </div>
+        </div>
+    </section>
+    <!--SECOND BLOCK-->
+    <section id="about">
+        <div class="wrapper">
+            <img class="wrapper--1" src="assets/about-content.png" width="300" height="408" alt="">
+            <h2 class="wrapper--2 heading--dark">About the shelter “Cozy House”</h2>
+            <h3 class="wrapper--3 subheading--dark">Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.</h3>
+            <h3 class="wrapper--4 subheading--dark">We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.</h3>
+        </div>
+    </section>
+    <!--THIRD BLOCK-->
+    <section id="pets">
+        <div class="wrapper">
+            <h2 class="heading--dark" style="max-width: 400px; text-align: center;">Our friends who are looking for a house</h2>
+            <div class="slider">
+                <!--ARROW-->
+                <div class="wrapper__before">
+                    <img src="assets/arrow.svg" width="14" height="6" alt="To previous">
+                </div>
+                <div class="slider__card">
+                    <img src="assets/pets-katrine.png" alt="Katrine" width="270" height="270">
+                    <p class="card__name">Katrine</p>
+                    <a class="button--secondary" href="">Learn more</a>
+                </div>
+                <div class="slider__card">
+                    <img src="assets/pets-jennifer.png" alt="Jennifer" width="270" height="270">
+                    <p class="card__name">Jennifer</p>
+                    <a class="button--secondary" href="">Learn more</a>
+                </div>
+                <div class="slider__card">
+                    <img src="assets/pets-woody.png" alt="Woody" width="270" height="270">
+                    <p class="card__name">Woody</p>
+                    <a class="button--secondary" href="">Learn more</a>
+                </div>
+                <!--ARROW-->
+                <div class="wrapper__after">
+                    <img src="assets/arrow.svg" width="14" height="6" alt="To next">
+                </div>
+            </div>
+            <a class="button--primary" href="">Get to know the rest</a>
         </div>
     </section>
 </main>
