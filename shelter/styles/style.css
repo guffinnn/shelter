@@ -36,7 +36,7 @@ html {
     }
 }
 
-header {
+#header {
     position: absolute;
     top: 0;
     left: 50%;
@@ -722,9 +722,10 @@ footer .wrapper {
 .pets__header {
     position: relative;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
 
-    width: auto;
+    width: 1200px;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -854,7 +855,10 @@ footer .wrapper {
     cursor: pointer;
 }
 
-.slider__button--inactive:hover,
+.slider__button--inactive {
+    cursor: default;
+}
+
 .slider__button--primary:hover,
 .slider__button--active:hover {
     opacity: 0.6;
