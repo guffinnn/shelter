@@ -622,8 +622,6 @@ footer {
             url(../assets/footer-gradient-background.jpg) no-repeat center center,
             radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
     background-size: cover;
-
-    padding: 40px;
 }
 
 footer .wrapper {
@@ -636,6 +634,7 @@ footer .wrapper {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     column-gap: 160px;
+    padding: 40px;
 }
 
 .title--light {
