@@ -250,6 +250,12 @@ html {
     background: var(--color-primary-light);
 }
 
+.home__puppy {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .home__puppy img {
     object-fit: contain;
 }
@@ -916,4 +922,45 @@ footer .wrapper {
 
 .slider__button--active span {
     color: var(--color-dark-3xl);
+}
+
+@media(max-width: 1280px) {
+    #header {
+        width: calc(100vw - 100px);
+    }
+
+    #home {
+        height: fit-content;
+        min-height: 728px;
+        max-height: 908px;
+    }
+
+    #home .wrapper {
+        width: auto;
+        margin: 0 40px;
+
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .home__content {
+        width: 460px;
+    }
+
+    .wrapper {
+        width: calc(100vw - 100px);
+    }
+
+    .home__puppy {
+        position: relative;
+        height: fit-content;
+
+        display: flex;
+        bottom: 0;
+        align-self: end;
+    }
+
+    .home__puppy img {
+        width: 100%;
+        height: auto;
+    }
 }
