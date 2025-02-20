@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /assets
 Disallow: /scripts
 Allow: *.css
-Host: www.site.com
+Host: shelter-seo.netlify.app
