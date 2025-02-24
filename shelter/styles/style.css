@@ -278,6 +278,13 @@ h1 {
     padding: 80px 0 100px 0;
 }
 
+.social-sharing {
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+}
+
 .wrapper--1 {
     grid-column: 1;
     grid-row: 1 / 4;
