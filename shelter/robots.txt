@@ -1,5 +1,8 @@
 User-agent: *
 Disallow: /assets
 Disallow: /scripts
-Allow: *.css
+Allow: /styles
+Allow: /pages
+Allow: /index.html
+Sitemap: https://shelter-seo.netlify.app/sitemap.xml
 Host: shelter-seo.netlify.app
