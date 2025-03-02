@@ -971,3 +971,9 @@ footer .wrapper {
         height: auto;
     }
 }
+
+@media(max-width: 390px) {
+    img {
+        display: none;
+    }
+}
